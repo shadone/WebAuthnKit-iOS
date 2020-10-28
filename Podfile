@@ -6,7 +6,7 @@ target 'WebAuthnKitDemo' do
   use_frameworks!
 
   pod "PromiseKit", "~> 6.13"
-  pod "EllipticCurveKeyPair", :git => "https://github.com/shadone/EllipticCurveKeyPair", :branch => "master"
+  pod "EllipticCurveKeyPair", "~> 2.0"
   pod "KeychainAccess", "~> 4.1"
   pod "CryptoSwift", "~> 1.3.0"
 
@@ -15,7 +15,7 @@ target 'WebAuthnKitDemo' do
   target 'WebAuthnKit' do
     inherit! :search_paths
     pod "PromiseKit", "~> 6.13"
-    pod "EllipticCurveKeyPair", :git => "https://github.com/shadone/EllipticCurveKeyPair", :branch => "master"
+    pod "EllipticCurveKeyPair", "~> 2.0"
     pod "KeychainAccess", "~> 4.1"
     pod "CryptoSwift", "~> 1.3.0"
   end

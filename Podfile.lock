@@ -1,6 +1,6 @@
 PODS:
   - CryptoSwift (1.3.2)
-  - EllipticCurveKeyPair (2.0-beta1)
+  - EllipticCurveKeyPair (2.0)
   - KeychainAccess (4.2.1)
   - PromiseKit (6.13.1):
     - PromiseKit/CorePromise (= 6.13.1)
@@ -14,32 +14,23 @@ PODS:
 
 DEPENDENCIES:
   - CryptoSwift (~> 1.3.0)
-  - EllipticCurveKeyPair (from `https://github.com/shadone/EllipticCurveKeyPair`, branch `master`)
+  - EllipticCurveKeyPair (~> 2.0)
   - KeychainAccess (~> 4.1)
   - PromiseKit (~> 6.13)
 
 SPEC REPOS:
   trunk:
     - CryptoSwift
+    - EllipticCurveKeyPair
     - KeychainAccess
     - PromiseKit
 
-EXTERNAL SOURCES:
-  EllipticCurveKeyPair:
-    :branch: master
-    :git: https://github.com/shadone/EllipticCurveKeyPair
-
-CHECKOUT OPTIONS:
-  EllipticCurveKeyPair:
-    :commit: 87cc688dbc9280ba71ccedb19cc779674f07c09e
-    :git: https://github.com/shadone/EllipticCurveKeyPair
-
 SPEC CHECKSUMS:
   CryptoSwift: 093499be1a94b0cae36e6c26b70870668cb56060
-  EllipticCurveKeyPair: 74c4c02087041d25e6ff17fb11412b163be80198
+  EllipticCurveKeyPair: 8c69e5238a6e47243a10a48fbd41dfb19110b22e
   KeychainAccess: 9b07f665298d13c3a85881bd3171f6f49b8151c1
   PromiseKit: 28fda91c973cc377875d8c0ea4f973013c05b6db
 
-PODFILE CHECKSUM: 1c2e47117b9f211b79b4d7e027cc587c0a0b3f88
+PODFILE CHECKSUM: fc4e1e734c887c5ef37c02dfa76d3790617d9ae4
 
 COCOAPODS: 1.10.0
