@@ -38,6 +38,6 @@ This library provides you a way to handle W3C Web Authentication API (a.k.a. Web
   s.dependency "KeychainAccess", "~> 4.1"
   s.dependency "CryptoSwift", "~> 1.3.0"
 
-  s.swift_version = "4.2"
+  s.swift_version = "5.3"
 
 end
